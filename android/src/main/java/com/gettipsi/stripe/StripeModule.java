@@ -223,7 +223,7 @@ public class StripeModule extends ReactContextBaseJavaModule {
 
       mStripe.createBankAccountToken(
         createBankAccount(accountData),
-        mPublicKey,
+        //mPublicKey,
         null,
         new ApiResultCallback<Token>() {
           public void onSuccess(Token token) {
